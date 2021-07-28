@@ -46,6 +46,7 @@
   width: 30px;
   margin-left: -100px;
 }
+
 .badge {
   color: white;
   background-color: red;
@@ -101,10 +102,7 @@
   padding: 0;
   margin: 0;
 }
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 hr.rounded {
   border-top: 4px solid #814188;
@@ -569,6 +567,15 @@ footer {
 .cardd {
   margin-top: 50px;
 }
+
+.grid{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+margin-left: 10px;
+align-items: center;
+width: 100%;
+}
 .right form input:focus,
 .right form textarea:focus {
   outline-color: #ffffff;
@@ -624,6 +631,10 @@ footer {
     position: relative;
     top: -100px;
     right: -15%;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column;
   }
   .login {
     flex-direction: column;
@@ -688,6 +699,7 @@ footer {
   .worldwide {
     margin: 0;
   }
+  
   .card-title {
     font-size: 15px;
   }

@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Oxteedesigns | home page</title>
+  <link rel="icon" href="./image/logoIcon.png">
   <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/shop.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
@@ -178,7 +179,7 @@
       while ($row = mysqli_fetch_assoc($result)) {
       ?>
         <form method="post">
-          <div class="col-md-4">
+          <div class="col-md-4 shopProduct">
             <div class="cardd" style="width: 18rem;">
               <img name='img' src="<?php echo $row["image"] ?>" class="card-img-top" alt="...">
               <div class="card-body">
@@ -327,7 +328,7 @@
 
 
   <script src="./js/bootstrap.bundle.min.js"></script>
-  <script src="./js/script.js"></script>
+  <script src="./js/app.js"></script>
 
 </body>
 

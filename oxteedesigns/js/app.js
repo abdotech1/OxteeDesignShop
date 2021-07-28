@@ -30,11 +30,12 @@ let i = 1
 addcart.forEach((cart) => {
     cart.addEventListener('click' , () => {
         let badge = document.querySelector('.badge')
-        badge.classList.add('badgeshow')
+        badge.style.display = 'block';
         badge.innerHTML = i++;
     })
 
 } )
+console.log('hello')
 
 // let addItem = []
 // function addToCart(id){

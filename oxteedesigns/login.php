@@ -46,8 +46,8 @@ if(isset($_POST['checkbox']) && $_POST['checkbox']!="")
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  
+  <title>Login</title>
+  <link rel="icon" href="./image/logoIcon.png">
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -62,7 +62,7 @@ if(isset($_POST['checkbox']) && $_POST['checkbox']!="")
       <input class="form-control me-2" type="search" placeholder="Search for products or designs " aria-label="Search">
       <button  class="serachIcon" type="submit"><i class="fas fa-search"></i></button>
     </form>
-    <a href="" class="shopingCart"><img src="image/shopping-cart.png" alt=""></a>
+    <a href="cart.php" class="shopingCart"><img src="image/shopping-cart.png" alt=""></a>
   </div>
 </nav> 
  <!-- end of navbar -->
